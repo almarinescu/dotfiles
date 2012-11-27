@@ -1,0 +1,34 @@
+[alias]
+	ss = status --short
+	lg = log --pretty --oneline --graph
+
+[user]
+	name = Alexandru Marinescu\n
+	email = alexandru.marinescu@mediacafe.ro
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[merge]
+	external = meld
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1215x778+419+158
+	history-view-vpane-position = 468
